@@ -27,6 +27,6 @@ public class App {
     }
 
     private static void ejecicio2(){
-
+            byte[] numeros = {-3,4,-5,6,-7,8,9};
     }
 }
