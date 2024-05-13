@@ -30,12 +30,16 @@ public class App {
             byte[] numeros = {-3,4,-5,6,-7,8,9};
 
             byte[] positivo =new byte[4];
+            byte[] negativo = new byte[3];
 
             for(int i = 0; i <= numeros.length; i++){
 
                 if(numeros[i] != 0 ){
 
                     positivo[i] = numeros[i];
+                }
+                else{
+                    negativo[i] = numeros[i];
                 }
                
             }
